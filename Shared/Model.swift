@@ -23,7 +23,7 @@ class UnsplashData: ObservableObject {
     func loadData() {
         //0ed7a476e89087bb745625b9cb9e4127624391bab09898106f71cb79a82e4b07
         //"https://api.unsplash.com/photos/random/?count=20&client_id=xs6cGZ_LqhBu3cSukZk2RjEWMsUgx5NXypGBYaU-J74"
-        //
+        //BranchA 
         let key = "xs6cGZ_LqhBu3cSukZk2RjEWMsUgx5NXypGBYaU-J74"
         let url = "https://api.unsplash.com/photos/random/?count=20&client_id=\(key)"
         
